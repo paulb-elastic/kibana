@@ -1,0 +1,14 @@
+{
+  "type": "plugin",
+  "id": "@kbn/experimentation-plugin",
+  "owner": ["@elastic/observability-ui"],
+  "group": "observability",
+  "visibility": "private",
+  "plugin": {
+    "id": "experimentation",
+    "browser": true,
+    "server": true,
+    "requiredPlugins": ["features"]
+  }
+}
+

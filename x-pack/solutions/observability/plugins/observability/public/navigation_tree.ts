@@ -63,6 +63,13 @@ function createNavTree({
         renderAs: 'home',
       },
       {
+        link: 'experiments' as const,
+        title: i18n.translate('xpack.observability.obltNav.experiments', {
+          defaultMessage: 'Experiments',
+        }),
+        icon: 'beaker',
+      },
+      {
         title: i18n.translate('xpack.observability.obltNav.discover', {
           defaultMessage: 'Discover',
         }),

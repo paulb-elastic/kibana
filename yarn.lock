@@ -6935,6 +6935,14 @@
   version "0.0.0"
   uid ""
 
+"@kbn/experimentation-plugin@link:x-pack/solutions/observability/plugins/experimentation":
+  version "0.0.0"
+  uid ""
+
+"@kbn/experiments-plugin@link:src/platform/plugins/private/experiments":
+  version "0.0.0"
+  uid ""
+
 "@kbn/exploratory-view-example-plugin@link:x-pack/examples/exploratory_view_example":
   version "0.0.0"
   uid ""
